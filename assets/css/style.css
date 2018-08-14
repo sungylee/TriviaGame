@@ -1,0 +1,62 @@
+body {
+    background-image: url('../images/videogame.png');
+    /*background-image: url('../images/video_background2.jpg'); */
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 5em;
+    color: #dd5ddd;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  h2 {
+    text-align: center;
+    color: red
+  }
+
+  .main {
+    background-color: rgba(25, 27, 39, 0.8);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
+  h3.instruction {
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+  }
+  .questions {
+    color: white;
+    text-align: left;
+    font-size: 1.2em;
+  }
+
+  .btn {
+    background-color: white;
+    font-size: 2em;
+    color: #dd5ddd;
+    width: 120px;
+    height: 80px;
+    border-radius: 2em;
+    transition: all 0.2s;
+    margin:0 auto;
+    text-align: center;
+    align-content: center;
+    position: relative; 
+  }
+  
+  button:hover {
+    background-color: orange; 
+  }
+
+  .choice-not-selected:checked + .choice-selected {
+   color: red;
+  }

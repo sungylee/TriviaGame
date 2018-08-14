@@ -1,0 +1,29 @@
+
+ body{
+    background-image: url('https://images.pexels.com/photos/54123/pexels-photo-54123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: auto;
+ 
+  }
+  
+  #container{
+    margin:2.5% auto;
+    background-color: rgb(209, 233, 165);
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  #subcontainer{
+    position: relative;
+    text-align: left;
+  }
+
+
+  h2 {
+    text-align: center;
+  }
+  h3{
+      text-align: center;
+  }
